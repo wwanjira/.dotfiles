@@ -4,5 +4,4 @@ brew "ack"
 brew "coreutils"
 brew "grc"
 brew "zsh-autosuggestions"
-brew 'zsh-completions'
 brew "zsh-syntax-highlighting"
