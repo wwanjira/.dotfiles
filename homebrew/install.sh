@@ -21,4 +21,8 @@ then
 
 fi
 
+# Install brew packages
+echo "  Installing brew packages for you."
+brew bundle | indent
+
 exit 0

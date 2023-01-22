@@ -51,11 +51,11 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
-
 # Additional syntax highlighting and autosuggestions for Zsh 
 if type brew &>/dev/null; then
   source `brew --prefix`/share/zsh-autosuggestions/zsh-autosuggestions.zsh
   source `brew --prefix`/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
