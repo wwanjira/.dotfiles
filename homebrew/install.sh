@@ -23,6 +23,6 @@ fi
 
 # Install brew packages
 echo "  Installing brew packages for you."
-brew bundle | indent
+brew bundle --file=$ZSH/homebrew/Brewfile | indent
 
 exit 0

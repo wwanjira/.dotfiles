@@ -1,7 +1,11 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
+
 brew "ack"
 brew "coreutils"
 brew "grc"
+brew "mtr"
+brew "node"
+brew "tree"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
